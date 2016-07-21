@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+        <title></title>
+
+        <!-- <link href="lib/ionic/css/ionic.css" rel="stylesheet"> -->
+        <script src="lib/ionic/js/ionic.bundle.js"></script>
+
+        <!-- cordova script (this will be a 404 during development) -->
+        <script src="cordova.js"></script>
+
+        <!-- IF using Sass (run gulp sass first), then uncomment below and remove the CSS includes above -->
+        <link href="css/ionic.app.css" rel="stylesheet">
+
+
+        <style type="text/css">
+            .platform-ios .manual-ios-statusbar-padding {
+                padding-top: 20px;
+            }
+        </style>
+
+        <script src="js/app.js"></script>
+        <script src="js/controllers.js"></script>
+        <script src="js/routes.js"></script>
+        <script src="js/services.js"></script>
+        <script src="js/directives.js"></script>
+        <script src="js/login/routes.js"></script>
+
+        <!-- Only required for Tab projects w/ pages in multiple tabs
+        <script src="lib/ionicuirouter/ionicUIRouter.js"></script>
+        -->
+
+    </head>
+    <body ng-app="soulcioApp" animation="slide-left-right-ios7">
+
+            <ion-side-menus>
+
+                <ion-side-menu-content>
+
+                    <ion-nav-bar class="bar-stable">
+                        <ion-nav-back-button></ion-nav-back-button>
+                        <ion-nav-buttons side="left">
+                            <button class="button button-icon button-clear ion-navicon" menu-toggle="left"></button>
+                        </ion-nav-buttons>
+                    </ion-nav-bar>
+
+                    <ion-nav-view></ion-nav-view>
+
+                </ion-side-menu-content>
+
+                <ion-side-menu side="left">
+                    <ion-header-bar class="bar-stable">
+                        <div class="title">Menu</div>
+                    </ion-header-bar>
+                    <ion-content padding="false" class="side-menu-left has-header">
+                        <ul class="list">
+                            <!-- Note each link has the 'menu-close' attribute so the menu auto closes when clicking on one of these links -->
+                            <a ui-sref="app.home" class="item" menu-close>Home</a>
+                            <a ui-sref="app.chats" class="item" menu-close>Friends</a>
+                            <a ui-sref="app.account" class="item" menu-close>Bookmarks</a>
+                            <a ui-sref="menu.login" class="item" menu-close>Login</a>
+                            <a ui-sref="menu.join"  class="item" menu-close>Logout Link</a>
+                        </ul>
+                    </ion-content>
+                </ion-side-menu>
+            </ion-side-menus>
+    </body>
+</html>
