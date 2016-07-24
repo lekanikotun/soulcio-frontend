@@ -1,15 +1,16 @@
 'use strict';
 
-var loginRoute = require('./login/routes');
+var loginRoute = require('../pages/login/routes');
+var joinRoute = require('../pages/join/routes');
+var homeRoute = require('../pages/home/routes');
+var chatRoute = require('../pages/chat/routes');
+var accountRoute = require('../pages/account/routes');
+var settingsRoute = require('../pages/settings/routes');
 
 angular.module('soulcioApp.routes')
 
     .config(function ($stateProvider, $urlRouterProvider) {
 
-        // Ionic uses AngularUI Router which uses the concept of states
-        // Learn more here: https://github.com/angular-ui/ui-router
-        // Set up the various states which the app can be in.
-        // Each state's controller can be found in controllers.js
         $stateProvider
 
             .state('app', {
@@ -17,60 +18,17 @@ angular.module('soulcioApp.routes')
                 templateUrl: 'templates/base/tabs.html',
                 abstract: true
             })
-
-            .state('app.home', {
-                url: '/home',
-                views: {
-                    'home': {
-                        templateUrl: 'templates/home.html'
-                    }
-                }
-            })
-
-            .state('app.account', {
-                url: '/account',
-                views: {
-                    'account': {
-                        templateUrl: 'templates/account.html'
-                    }
-                }
-            })
-
-            .state('app.chats', {
-                url: '/chats',
-                views: {
-                    'chats': {
-                        templateUrl: 'templates/chats.html'
-                    }
-                }
-            })
-
-            .state('app.settings', {
-                url: '/settings',
-                views: {
-                    'settings': {
-                        templateUrl: 'templates/settings.html'
-                    }
-                }
-            })
-
             .state('menu', {
                 url: '',
                 templateUrl: 'templates/base/menu.html',
                 abstract: true
             })
-
-
+            .state(homeRoute)
+            .state(accountRoute)
+            .state(chatRoute)
+            .state(settingsRoute)
             .state(loginRoute)
-
-            .state('menu.join', {
-                url: '/join',
-                views: {
-                    'join': {
-                        templateUrl: 'templates/join.html'
-                    }
-                }
-            });
+            .state(joinRoute)
 
         $urlRouterProvider.otherwise('/home')
 

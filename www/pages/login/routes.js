@@ -6,7 +6,7 @@ module.exports =  {
     parent: 'menu',
     views: {
         'login': {
-            templateUrl: 'templates/login.html'
+            templateUrl: 'pages/login/template.html'
         }
     }
 }

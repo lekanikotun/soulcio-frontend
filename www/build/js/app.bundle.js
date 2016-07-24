@@ -54,12 +54,8 @@
 	'use strict';
 
 	__webpack_require__(1);
-
 	__webpack_require__(2);
-	__webpack_require__(4);
-	__webpack_require__(5);
-	__webpack_require__(6);
-	__webpack_require__(7);
+	__webpack_require__(9);
 
 
 	window.soulcioApp = angular.module('soulcioApp', [
@@ -115,22 +111,42 @@
 /* 2 */
 /***/ function(module, exports, __webpack_require__) {
 
-	var map = {
-		"./routes.js": 3
-	};
-	function webpackContext(req) {
-		return __webpack_require__(webpackContextResolve(req));
-	};
-	function webpackContextResolve(req) {
-		return map[req] || (function() { throw new Error("Cannot find module '" + req + "'.") }());
-	};
-	webpackContext.keys = function webpackContextKeys() {
-		return Object.keys(map);
-	};
-	webpackContext.resolve = webpackContextResolve;
-	module.exports = webpackContext;
-	webpackContext.id = 2;
+	'use strict';
 
+	var loginRoute = __webpack_require__(3);
+	var joinRoute = __webpack_require__(4);
+	var homeRoute = __webpack_require__(5);
+	var chatRoute = __webpack_require__(6);
+	var accountRoute = __webpack_require__(7);
+	var settingsRoute = __webpack_require__(8);
+
+	angular.module('soulcioApp.routes')
+
+	    .config(function ($stateProvider, $urlRouterProvider) {
+
+	        $stateProvider
+
+	            .state('app', {
+	                url: '',
+	                templateUrl: 'templates/base/tabs.html',
+	                abstract: true
+	            })
+	            .state('menu', {
+	                url: '',
+	                templateUrl: 'templates/base/menu.html',
+	                abstract: true
+	            })
+	            .state(homeRoute)
+	            .state(accountRoute)
+	            .state(chatRoute)
+	            .state(settingsRoute)
+	            .state(loginRoute)
+	            .state(joinRoute)
+
+	        $urlRouterProvider.otherwise('/home')
+
+
+	    });
 
 /***/ },
 /* 3 */
@@ -144,7 +160,7 @@
 	    parent: 'menu',
 	    views: {
 	        'login': {
-	            templateUrl: 'templates/login.html'
+	            templateUrl: 'pages/login/template.html'
 	        }
 	    }
 	}
@@ -152,145 +168,287 @@
 
 /***/ },
 /* 4 */
-/***/ function(module, exports, __webpack_require__) {
+/***/ function(module, exports) {
 
 	'use strict';
 
-	var loginRoute = __webpack_require__(3);
+	module.exports =  {
+	    name: 'menu.join',
+	    url: '/join',
+	    parent: 'menu',
+	    views: {
+	        'join': {
+	            templateUrl: 'pages/join/template.html'
+	        }
+	    }
+	}
 
-	angular.module('soulcioApp.routes')
-
-	    .config(function ($stateProvider, $urlRouterProvider) {
-
-	        // Ionic uses AngularUI Router which uses the concept of states
-	        // Learn more here: https://github.com/angular-ui/ui-router
-	        // Set up the various states which the app can be in.
-	        // Each state's controller can be found in controllers.js
-	        $stateProvider
-
-	            .state('app', {
-	                url: '',
-	                templateUrl: 'templates/base/tabs.html',
-	                abstract: true
-	            })
-
-	            .state('app.home', {
-	                url: '/home',
-	                views: {
-	                    'home': {
-	                        templateUrl: 'templates/home.html'
-	                    }
-	                }
-	            })
-
-	            .state('app.account', {
-	                url: '/account',
-	                views: {
-	                    'account': {
-	                        templateUrl: 'templates/account.html'
-	                    }
-	                }
-	            })
-
-	            .state('app.chats', {
-	                url: '/chats',
-	                views: {
-	                    'chats': {
-	                        templateUrl: 'templates/chats.html'
-	                    }
-	                }
-	            })
-
-	            .state('app.settings', {
-	                url: '/settings',
-	                views: {
-	                    'settings': {
-	                        templateUrl: 'templates/settings.html'
-	                    }
-	                }
-	            })
-
-	            .state('menu', {
-	                url: '',
-	                templateUrl: 'templates/base/menu.html',
-	                abstract: true
-	            })
-
-
-	            .state(loginRoute)
-
-	            .state('menu.join', {
-	                url: '/join',
-	                views: {
-	                    'join': {
-	                        templateUrl: 'templates/join.html'
-	                    }
-	                }
-	            });
-
-	        $urlRouterProvider.otherwise('/home')
-
-
-	    });
 
 /***/ },
 /* 5 */
 /***/ function(module, exports) {
 
-	angular.module('soulcioApp.controllers', [])
-	  
-	.controller('meCtrl', function($scope) {
+	'use strict';
 
-	})
-	   
-	.controller('messagesCtrl', function($scope) {
+	module.exports =  {
+	    name: 'app.home',
+	    url: '/home',
+	    parent: 'app',
+	    views: {
+	        'home': {
+	            templateUrl: 'pages/home/template.html'
+	        }
+	    }
+	}
 
-	})
-	   
-	.controller('settingsCtrl', function($scope) {
-
-	})
-	         
-	.controller('theRichMindsCtrl', function($scope) {
-
-	})
-	   
-	.controller('signupCtrl', function($scope) {
-
-	})
-	   
-	.controller('loginCtrl', function($scope) {
-
-	})
-	 
 
 /***/ },
 /* 6 */
 /***/ function(module, exports) {
 
-	angular.module('soulcioApp.directives', [])
+	'use strict';
 
-	.directive('blankDirective', [function(){
-
-	}]);
-
+	module.exports =  {
+	    name: 'app.chat',
+	    url: '/chat',
+	    parent: 'app',
+	    views: {
+	        'chat': {
+	            templateUrl: 'pages/chat/template.html'
+	        }
+	    }
+	}
 
 
 /***/ },
 /* 7 */
 /***/ function(module, exports) {
 
-	angular.module('soulcioApp.services', [])
+	'use strict';
 
-	.factory('BlankFactory', [function(){
+	module.exports =  {
+	    name: 'app.account',
+	    url: '/account',
+	    parent: 'app',
+	    views: {
+	        'account': {
+	            templateUrl: 'pages/account/template.html'
+	        }
+	    }
+	}
 
-	}])
 
-	.service('BlankService', [function(){
+/***/ },
+/* 8 */
+/***/ function(module, exports) {
 
-	}]);
+	'use strict';
+
+	module.exports =  {
+	    name: 'app.settings',
+	    url: '/settings',
+	    parent: 'app',
+	    views: {
+	        'settings': {
+	            templateUrl: 'pages/settings/template.html'
+	        }
+	    }
+	}
 
 
+/***/ },
+/* 9 */
+/***/ function(module, exports, __webpack_require__) {
+
+	var map = {
+		"./account/controller.js": 10,
+		"./account/routes.js": 7,
+		"./account/services.js": 11,
+		"./chat/controller.js": 12,
+		"./chat/routes.js": 6,
+		"./chat/services.js": 13,
+		"./home/controller.js": 14,
+		"./home/routes.js": 5,
+		"./home/services.js": 15,
+		"./join/controller.js": 16,
+		"./join/routes.js": 4,
+		"./join/services.js": 17,
+		"./login/controller.js": 18,
+		"./login/routes.js": 3,
+		"./login/services.js": 19,
+		"./settings/controller.js": 20,
+		"./settings/routes.js": 8,
+		"./settings/services.js": 21
+	};
+	function webpackContext(req) {
+		return __webpack_require__(webpackContextResolve(req));
+	};
+	function webpackContextResolve(req) {
+		return map[req] || (function() { throw new Error("Cannot find module '" + req + "'.") }());
+	};
+	webpackContext.keys = function webpackContextKeys() {
+		return Object.keys(map);
+	};
+	webpackContext.resolve = webpackContextResolve;
+	module.exports = webpackContext;
+	webpackContext.id = 9;
+
+
+/***/ },
+/* 10 */
+/***/ function(module, exports) {
+
+	'use strict';
+
+	angular.module('soulcioApp.account')
+
+	    .controller('loginController', function($scope) {
+
+	    });
+
+/***/ },
+/* 11 */
+/***/ function(module, exports) {
+
+	angular.module('soulcioApp.account')
+
+	    .factory('BlankFactory', [function(){
+
+	    }])
+
+	    .service('BlankService', [function(){
+
+	    }]);
+
+/***/ },
+/* 12 */
+/***/ function(module, exports) {
+
+	'use strict';
+
+	angular.module('soulcioApp.chat')
+
+	    .controller('ChatController', function($scope) {
+
+	    });
+
+/***/ },
+/* 13 */
+/***/ function(module, exports) {
+
+	angular.module('soulcioApp.chat')
+
+	    .factory('BlankFactory', [function(){
+
+	    }])
+
+	    .service('BlankService', [function(){
+
+	    }]);
+
+/***/ },
+/* 14 */
+/***/ function(module, exports) {
+
+	'use strict';
+
+	angular.module('soulcioApp.home')
+
+	    .controller('HomeController', function($scope) {
+
+	    });
+
+/***/ },
+/* 15 */
+/***/ function(module, exports) {
+
+	angular.module('soulcioApp.home')
+
+	    .factory('BlankFactory', [function(){
+
+	    }])
+
+	    .service('BlankService', [function(){
+
+	    }]);
+
+/***/ },
+/* 16 */
+/***/ function(module, exports) {
+
+	'use strict';
+
+	angular.module('soulcioApp.join')
+
+	    .controller('JoinController', function($scope) {
+
+	    });
+
+/***/ },
+/* 17 */
+/***/ function(module, exports) {
+
+	angular.module('soulcioApp.join')
+
+	    .factory('BlankFactory', [function(){
+
+	    }])
+
+	    .service('BlankService', [function(){
+
+	    }]);
+
+/***/ },
+/* 18 */
+/***/ function(module, exports) {
+
+	'use strict';
+
+	angular.module('soulcioApp.login')
+
+	    .controller('LoginController', function($scope) {
+
+	    });
+
+/***/ },
+/* 19 */
+/***/ function(module, exports) {
+
+	angular.module('soulcioApp.login')
+
+	    .factory('BlankFactory', [function(){
+
+	    }])
+
+	    .service('BlankService', [function(){
+
+	    }]);
+
+/***/ },
+/* 20 */
+/***/ function(module, exports) {
+
+	'use strict';
+
+	angular.module('soulcioApp.settings')
+
+	    .controller('SettingsController', function($scope) {
+
+	    });
+
+/***/ },
+/* 21 */
+/***/ function(module, exports) {
+
+	angular.module('soulcioApp.settings')
+
+	    .factory('BlankFactory', [function(){
+
+	    }])
+
+	    .service('BlankService', [function(){
+
+	    }]);
 
 /***/ }
 /******/ ]);

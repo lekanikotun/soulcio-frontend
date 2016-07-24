@@ -8,12 +8,8 @@
 'use strict';
 
 require('./app.modules.js');
-
-require.context("./login", true, /^\.\/.*\.js$/);
 require('./routes.js');
-require('./controllers.js');
-require('./directives.js');
-require('./services.js');
+require.context("../pages", true, /^\.\/.*\.js$/);
 
 
 window.soulcioApp = angular.module('soulcioApp', [

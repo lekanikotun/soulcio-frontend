@@ -25,7 +25,8 @@
     "ionic-plugin-keyboard"
   ],
   "scripts": {
-    "build": "webpack"
+    "build": "webpack",
+    "start": "npm start"
   },
   "cordovaPlatforms": []
 }

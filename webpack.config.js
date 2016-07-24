@@ -11,5 +11,11 @@ module.exports = {
     output: {
         path          : path.join(__dirname, 'www/build/js'),
         filename      : 'app.bundle.js'
+    },
+
+    devServer: {
+        inline: true,
+        contentBase: './build/js',
+        port: '3100'
     }
 }
