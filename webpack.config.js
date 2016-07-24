@@ -9,7 +9,7 @@ var path                = require('path'),
 module.exports = {
     entry: './www/js/app.js',
     output: {
-        path          : path.join(__dirname, 'www/js'),
+        path          : path.join(__dirname, 'www/build/js'),
         filename      : 'app.bundle.js'
     }
 }
