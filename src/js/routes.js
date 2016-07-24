@@ -1,7 +1,3 @@
-'use strict';
-
-var loginRoute = require('./login/routes');
-
 angular.module('soulcioApp.routes')
 
     .config(function ($stateProvider, $urlRouterProvider) {
@@ -59,9 +55,6 @@ angular.module('soulcioApp.routes')
                 templateUrl: 'templates/base/menu.html',
                 abstract: true
             })
-
-
-            .state(loginRoute)
 
             .state('menu.join', {
                 url: '/join',
