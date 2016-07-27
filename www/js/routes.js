@@ -1,5 +1,9 @@
 'use strict';
 
+//controllers
+require('../pages/login/controller');
+
+//Routes
 var loginRoute = require('../pages/login/routes');
 var joinRoute = require('../pages/join/routes');
 var homeRoute = require('../pages/home/routes');

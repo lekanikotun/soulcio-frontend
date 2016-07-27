@@ -55,7 +55,7 @@
 
 	__webpack_require__(1);
 	__webpack_require__(2);
-	__webpack_require__(9);
+	__webpack_require__(10);
 
 
 	window.soulcioApp = angular.module('soulcioApp', [
@@ -113,12 +113,16 @@
 
 	'use strict';
 
-	var loginRoute = __webpack_require__(3);
-	var joinRoute = __webpack_require__(4);
-	var homeRoute = __webpack_require__(5);
-	var chatRoute = __webpack_require__(6);
-	var accountRoute = __webpack_require__(7);
-	var settingsRoute = __webpack_require__(8);
+	//controllers
+	__webpack_require__(3);
+
+	//Routes
+	var loginRoute = __webpack_require__(4);
+	var joinRoute = __webpack_require__(5);
+	var homeRoute = __webpack_require__(6);
+	var chatRoute = __webpack_require__(7);
+	var accountRoute = __webpack_require__(8);
+	var settingsRoute = __webpack_require__(9);
 
 	angular.module('soulcioApp.routes')
 
@@ -154,20 +158,34 @@
 
 	'use strict';
 
+	angular.module('soulcioApp.login')
+
+	    .controller('LoginController', function($scope) {
+
+	    });
+
+/***/ },
+/* 4 */
+/***/ function(module, exports) {
+
+	'use strict';
+
 	module.exports =  {
 	    name: 'menu.login',
 	    url: '/login',
 	    parent: 'menu',
 	    views: {
 	        'login': {
-	            templateUrl: 'pages/login/template.html'
+	            templateUrl: 'pages/login/template.html',
+	            controller: 'LoginController',
+	            controllerAs: 'vm'
 	        }
 	    }
 	}
 
 
 /***/ },
-/* 4 */
+/* 5 */
 /***/ function(module, exports) {
 
 	'use strict';
@@ -185,7 +203,7 @@
 
 
 /***/ },
-/* 5 */
+/* 6 */
 /***/ function(module, exports) {
 
 	'use strict';
@@ -203,7 +221,7 @@
 
 
 /***/ },
-/* 6 */
+/* 7 */
 /***/ function(module, exports) {
 
 	'use strict';
@@ -221,7 +239,7 @@
 
 
 /***/ },
-/* 7 */
+/* 8 */
 /***/ function(module, exports) {
 
 	'use strict';
@@ -239,7 +257,7 @@
 
 
 /***/ },
-/* 8 */
+/* 9 */
 /***/ function(module, exports) {
 
 	'use strict';
@@ -257,27 +275,27 @@
 
 
 /***/ },
-/* 9 */
+/* 10 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var map = {
-		"./account/controller.js": 10,
-		"./account/routes.js": 7,
-		"./account/services.js": 11,
-		"./chat/controller.js": 12,
-		"./chat/routes.js": 6,
-		"./chat/services.js": 13,
-		"./home/controller.js": 14,
-		"./home/routes.js": 5,
-		"./home/services.js": 15,
-		"./join/controller.js": 16,
-		"./join/routes.js": 4,
-		"./join/services.js": 17,
-		"./login/controller.js": 18,
-		"./login/routes.js": 3,
+		"./account/controller.js": 11,
+		"./account/routes.js": 8,
+		"./account/services.js": 12,
+		"./chat/controller.js": 13,
+		"./chat/routes.js": 7,
+		"./chat/services.js": 14,
+		"./home/controller.js": 15,
+		"./home/routes.js": 6,
+		"./home/services.js": 16,
+		"./join/controller.js": 17,
+		"./join/routes.js": 5,
+		"./join/services.js": 18,
+		"./login/controller.js": 3,
+		"./login/routes.js": 4,
 		"./login/services.js": 19,
 		"./settings/controller.js": 20,
-		"./settings/routes.js": 8,
+		"./settings/routes.js": 9,
 		"./settings/services.js": 21
 	};
 	function webpackContext(req) {
@@ -291,11 +309,11 @@
 	};
 	webpackContext.resolve = webpackContextResolve;
 	module.exports = webpackContext;
-	webpackContext.id = 9;
+	webpackContext.id = 10;
 
 
 /***/ },
-/* 10 */
+/* 11 */
 /***/ function(module, exports) {
 
 	'use strict';
@@ -307,7 +325,7 @@
 	    });
 
 /***/ },
-/* 11 */
+/* 12 */
 /***/ function(module, exports) {
 
 	angular.module('soulcioApp.account')
@@ -321,7 +339,7 @@
 	    }]);
 
 /***/ },
-/* 12 */
+/* 13 */
 /***/ function(module, exports) {
 
 	'use strict';
@@ -333,7 +351,7 @@
 	    });
 
 /***/ },
-/* 13 */
+/* 14 */
 /***/ function(module, exports) {
 
 	angular.module('soulcioApp.chat')
@@ -347,7 +365,7 @@
 	    }]);
 
 /***/ },
-/* 14 */
+/* 15 */
 /***/ function(module, exports) {
 
 	'use strict';
@@ -359,7 +377,7 @@
 	    });
 
 /***/ },
-/* 15 */
+/* 16 */
 /***/ function(module, exports) {
 
 	angular.module('soulcioApp.home')
@@ -373,7 +391,7 @@
 	    }]);
 
 /***/ },
-/* 16 */
+/* 17 */
 /***/ function(module, exports) {
 
 	'use strict';
@@ -385,7 +403,7 @@
 	    });
 
 /***/ },
-/* 17 */
+/* 18 */
 /***/ function(module, exports) {
 
 	angular.module('soulcioApp.join')
@@ -397,18 +415,6 @@
 	    .service('BlankService', [function(){
 
 	    }]);
-
-/***/ },
-/* 18 */
-/***/ function(module, exports) {
-
-	'use strict';
-
-	angular.module('soulcioApp.login')
-
-	    .controller('LoginController', function($scope) {
-
-	    });
 
 /***/ },
 /* 19 */
