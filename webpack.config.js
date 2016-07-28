@@ -9,13 +9,13 @@ var path                = require('path'),
 module.exports = {
     entry: './www/js/app.js',
     output: {
-        path          : path.join(__dirname, 'www/build/js'),
+        path          : path.join(__dirname, 'www/dist/js'),
         filename      : 'app.bundle.js'
     },
 
     devServer: {
         inline: true,
-        contentBase: './build/js',
+        contentBase: './dist/js',
         port: '3100'
     }
 }

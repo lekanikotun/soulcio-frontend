@@ -6,7 +6,7 @@ module.exports =  {
     parent: 'app',
     views: {
         'account': {
-            templateUrl: 'pages/account/template.html'
+            templateUrl: 'src/pages/account/template.html'
         }
     }
 }

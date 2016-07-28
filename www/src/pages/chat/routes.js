@@ -6,7 +6,7 @@ module.exports =  {
     parent: 'app',
     views: {
         'chat': {
-            templateUrl: 'pages/chat/template.html'
+            templateUrl: 'src/pages/chat/template.html'
         }
     }
 }

@@ -6,7 +6,7 @@ module.exports =  {
     parent: 'menu',
     views: {
         'join': {
-            templateUrl: 'pages/join/template.html'
+            templateUrl: 'src/pages/join/template.html'
         }
     }
 }

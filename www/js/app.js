@@ -8,9 +8,8 @@
 'use strict';
 
 require('./app.modules.js');
-require('./routes.js');
-require.context("../pages", true, /^\.\/.*\.js$/);
-
+require('../src/routes/routes.js');
+//require.context("../src", true, /^\.\/.*\.js$/);
 
 window.soulcioApp = angular.module('soulcioApp', [
     'ionic',

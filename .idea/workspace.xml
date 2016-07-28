@@ -2,94 +2,41 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f0ef061a-e070-4253-9e7a-c7ee39768e05" name="Default" comment="changed build bundle directory">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/css/ionic.app.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/css/ionic.app.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/391blr3TqDUKYAZgFsRg_lekan-ikotun.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/js/app.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/js/app.modules.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/js/controllers.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/js/controllers/authenticate.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/js/directives.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/js/login/routes.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/js/routes.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/js/services.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/lib/ionic/css/ionic.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/lib/ionic/css/ionic.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/lib/ionic/fonts/ionicons.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/lib/ionic/fonts/ionicons.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/lib/ionic/fonts/ionicons.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/lib/ionic/fonts/ionicons.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/lib/ionic/js/angular-ui/angular-ui-router.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/lib/ionic/js/angular-ui/angular-ui-router.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/lib/ionic/js/angular/angular-animate.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/lib/ionic/js/angular/angular-animate.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/lib/ionic/js/angular/angular-resource.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/lib/ionic/js/angular/angular-resource.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/lib/ionic/js/angular/angular-sanitize.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/lib/ionic/js/angular/angular-sanitize.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/lib/ionic/js/angular/angular.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/lib/ionic/js/angular/angular.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/lib/ionic/js/ionic-angular.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/lib/ionic/js/ionic-angular.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/lib/ionic/js/ionic.bundle.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/lib/ionic/js/ionic.bundle.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/lib/ionic/js/ionic.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/lib/ionic/js/ionic.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/lib/ionic/scss/_action-sheet.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/lib/ionic/scss/_animations.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/lib/ionic/scss/_backdrop.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/lib/ionic/scss/_badge.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/lib/ionic/scss/_bar.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/lib/ionic/scss/_button-bar.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/lib/ionic/scss/_button.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/lib/ionic/scss/_checkbox.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/lib/ionic/scss/_form.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/lib/ionic/scss/_grid.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/lib/ionic/scss/_items.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/lib/ionic/scss/_list.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/lib/ionic/scss/_loading.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/lib/ionic/scss/_menu.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/lib/ionic/scss/_mixins.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/lib/ionic/scss/_modal.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/lib/ionic/scss/_platform.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/lib/ionic/scss/_popover.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/lib/ionic/scss/_popup.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/lib/ionic/scss/_progress.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/lib/ionic/scss/_radio.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/lib/ionic/scss/_range.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/lib/ionic/scss/_refresher.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/lib/ionic/scss/_reset.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/lib/ionic/scss/_scaffolding.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/lib/ionic/scss/_select.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/lib/ionic/scss/_slide-box.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/lib/ionic/scss/_slides.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/lib/ionic/scss/_spinner.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/lib/ionic/scss/_tabs.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/lib/ionic/scss/_toggle.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/lib/ionic/scss/_transitions.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/lib/ionic/scss/_type.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/lib/ionic/scss/_util.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/lib/ionic/scss/_variables.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/lib/ionic/scss/ionic.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/lib/ionic/scss/ionicons/_ionicons-font.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/lib/ionic/scss/ionicons/_ionicons-icons.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/lib/ionic/scss/ionicons/_ionicons-variables.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/lib/ionic/scss/ionicons/ionicons.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/lib/ionic/version.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/lib/ionicuirouter/ionicUIRouter.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/templates/account.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/templates/base/menu.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/templates/base/tabs.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/templates/chats.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/templates/home.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/templates/join.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/templates/login.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/templates/settings.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/build/js/app.bundle.js" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/www/directives/directives.js" afterPath="$PROJECT_DIR$/www/src/directives/directives.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/www/img/391blr3TqDUKYAZgFsRg_lekan-ikotun.jpg" afterPath="$PROJECT_DIR$/www/src/img/391blr3TqDUKYAZgFsRg_lekan-ikotun.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/www/js/routes.js" afterPath="$PROJECT_DIR$/www/src/routes/routes.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/www/js/services.js" afterPath="$PROJECT_DIR$/www/src/services/services.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/www/pages/account/controller.js" afterPath="$PROJECT_DIR$/www/src/pages/account/controller.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/www/pages/account/routes.js" afterPath="$PROJECT_DIR$/www/src/pages/account/routes.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/www/pages/account/services.js" afterPath="$PROJECT_DIR$/www/src/pages/account/services.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/www/pages/account/template.html" afterPath="$PROJECT_DIR$/www/src/pages/account/template.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/www/pages/chat/controller.js" afterPath="$PROJECT_DIR$/www/src/pages/chat/controller.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/www/pages/chat/routes.js" afterPath="$PROJECT_DIR$/www/src/pages/chat/routes.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/www/pages/chat/services.js" afterPath="$PROJECT_DIR$/www/src/pages/chat/services.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/www/pages/chat/template.html" afterPath="$PROJECT_DIR$/www/src/pages/chat/template.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/www/pages/home/controller.js" afterPath="$PROJECT_DIR$/www/src/pages/home/controller.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/www/pages/home/routes.js" afterPath="$PROJECT_DIR$/www/src/pages/home/routes.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/www/pages/home/services.js" afterPath="$PROJECT_DIR$/www/src/pages/home/services.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/www/pages/home/template.html" afterPath="$PROJECT_DIR$/www/src/pages/home/template.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/www/pages/join/controller.js" afterPath="$PROJECT_DIR$/www/src/pages/join/controller.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/www/pages/join/routes.js" afterPath="$PROJECT_DIR$/www/src/pages/join/routes.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/www/pages/join/services.js" afterPath="$PROJECT_DIR$/www/src/pages/join/services.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/www/pages/join/template.html" afterPath="$PROJECT_DIR$/www/src/pages/join/template.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/www/pages/login/controller.js" afterPath="$PROJECT_DIR$/www/src/pages/login/controller.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/www/pages/login/routes.js" afterPath="$PROJECT_DIR$/www/src/pages/login/routes.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/www/pages/login/services.js" afterPath="$PROJECT_DIR$/www/src/pages/login/services.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/www/pages/login/template.html" afterPath="$PROJECT_DIR$/www/src/pages/login/template.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/www/pages/settings/controller.js" afterPath="$PROJECT_DIR$/www/src/pages/settings/controller.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/www/pages/settings/routes.js" afterPath="$PROJECT_DIR$/www/src/pages/settings/routes.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/www/pages/settings/services.js" afterPath="$PROJECT_DIR$/www/src/pages/settings/services.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/www/pages/settings/template.html" afterPath="$PROJECT_DIR$/www/src/pages/settings/template.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/www/templates/base/menu.html" afterPath="$PROJECT_DIR$/www/src/templates/base/menu.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/www/templates/base/tabs.html" afterPath="$PROJECT_DIR$/www/src/templates/base/tabs.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config.xml" afterPath="$PROJECT_DIR$/config.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/build/js/app.bundle.js" afterPath="$PROJECT_DIR$/www/build/js/app.bundle.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/routes.js" afterPath="$PROJECT_DIR$/www/js/routes.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/pages/login/routes.js" afterPath="$PROJECT_DIR$/www/pages/login/routes.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webpack.config.js" afterPath="$PROJECT_DIR$/webpack.config.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/index.html" afterPath="$PROJECT_DIR$/www/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/app.js" afterPath="$PROJECT_DIR$/www/js/app.js" />
     </list>
     <ignored path="app.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -112,177 +59,37 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="routes.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/js/routes.js">
+        <entry file="file://$PROJECT_DIR$/www/src/routes/routes.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="28" column="14" selection-start-line="28" selection-start-column="14" selection-end-line="28" selection-end-column="14" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="gulpfile.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gulpfile.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="config.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.625">
-              <caret line="1" column="67" selection-start-line="1" selection-start-column="67" selection-end-line="1" selection-end-column="67" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="controller.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/pages/login/controller.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="6" column="7" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="controller.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/pages/account/controller.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="2" column="34" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="routes.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/pages/account/routes.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="services.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/pages/login/services.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="33" selection-start-line="0" selection-start-column="33" selection-end-line="0" selection-end-column="33" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="routes.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/www/pages/login/routes.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.31019202">
-              <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="services.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/pages/settings/services.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="36" selection-start-line="0" selection-start-column="36" selection-end-line="0" selection-end-column="36" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="controller.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/pages/join/controller.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="6" column="7" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="routes.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/pages/join/routes.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="services.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/pages/join/services.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="32" selection-start-line="0" selection-start-column="32" selection-end-line="0" selection-end-column="32" />
+              <caret line="20" column="59" selection-start-line="20" selection-start-column="59" selection-end-line="20" selection-end-column="59" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="template.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/pages/join/template.html">
+        <entry file="file://$PROJECT_DIR$/www/src/pages/settings/template.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-13.125">
-              <caret line="21" column="11" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
+            <state vertical-scroll-proportion="-1.25">
+              <caret line="2" column="37" selection-start-line="2" selection-start-column="37" selection-end-line="2" selection-end-column="37" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="routes.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/pages/settings/routes.js">
+        <entry file="file://$PROJECT_DIR$/www/src/pages/login/routes.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="controller.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/pages/home/controller.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="6" column="7" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="controller.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/pages/settings/controller.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="6" column="7" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="services.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/pages/chat/services.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="32" selection-start-line="0" selection-start-column="32" selection-end-line="0" selection-end-column="32" />
+              <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="template.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/pages/chat/template.html">
+        <entry file="file://$PROJECT_DIR$/www/src/pages/home/template.html">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="-2.5">
               <caret line="4" column="11" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
@@ -291,8 +98,145 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="routes.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/src/pages/home/routes.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+              <folding>
+                <marker date="1469675635000" expanded="true" signature="123:190" placeholder="{&quot;templateUrl&quot;: 'src/pages/home/template.html'...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/www/js/app.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.7692308">
+              <caret line="10" column="35" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.bundle.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/dist/js/app.bundle.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+                <marker date="1469676343000" expanded="true" signature="50:58" placeholder="/*...*/" />
+                <marker date="1469676343000" expanded="true" signature="80:88" placeholder="/*...*/" />
+                <marker date="1469676343000" expanded="true" signature="201:858" placeholder="{...}" />
+                <marker date="1469676343000" expanded="true" signature="204:212" placeholder="/*...*/" />
+                <marker date="1469676343000" expanded="true" signature="246:254" placeholder="/*...*/" />
+                <marker date="1469676343000" expanded="true" signature="288:296" placeholder="/*...*/" />
+                <marker date="1469676343000" expanded="true" signature="344:352" placeholder="/*...*/" />
+                <marker date="1469676343000" expanded="true" signature="459:550" placeholder="{&quot;loaded&quot;: false...}" />
+                <marker date="1469676343000" expanded="true" signature="461:469" placeholder="/*...*/" />
+                <marker date="1469676343000" expanded="true" signature="486:494" placeholder="/*...*/" />
+                <marker date="1469676343000" expanded="true" signature="512:520" placeholder="/*...*/" />
+                <marker date="1469676343000" expanded="true" signature="553:561" placeholder="/*...*/" />
+                <marker date="1469676343000" expanded="true" signature="595:603" placeholder="/*...*/" />
+                <marker date="1469676343000" expanded="true" signature="692:700" placeholder="/*...*/" />
+                <marker date="1469676343000" expanded="true" signature="732:740" placeholder="/*...*/" />
+                <marker date="1469676343000" expanded="true" signature="766:774" placeholder="/*...*/" />
+                <marker date="1469676343000" expanded="true" signature="813:821" placeholder="/*...*/" />
+                <marker date="1469676343000" expanded="true" signature="861:869" placeholder="/*...*/" />
+                <marker date="1469676343000" expanded="true" signature="922:930" placeholder="/*...*/" />
+                <marker date="1469676343000" expanded="true" signature="1003:1011" placeholder="/*...*/" />
+                <marker date="1469676343000" expanded="true" signature="1093:1101" placeholder="/*...*/" />
+                <marker date="1469676343000" expanded="true" signature="1182:1190" placeholder="/*...*/" />
+                <marker date="1469676343000" expanded="true" signature="1235:1309" placeholder="/*...*/" />
+                <marker date="1469676343000" expanded="true" signature="1320:7176" placeholder="[...]" />
+                <marker date="1469676343000" expanded="true" signature="1322:1329" placeholder="/*...*/" />
+                <marker date="1469676343000" expanded="true" signature="1330:1335" placeholder="/*...*/" />
+                <marker date="1469676343000" expanded="true" signature="1383:1748" placeholder="{...}" />
+                <marker date="1469676343000" expanded="true" signature="1387:1704" placeholder="//..." />
+                <marker date="1469676343000" expanded="true" signature="7156:7165" placeholder="{...}" />
+                <marker date="1469676343000" expanded="true" signature="7158:7163" placeholder="/*...*/" />
+                <marker date="1469676343000" expanded="true" signature="7166:7174" placeholder="/*...*/" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="webpack.config.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/webpack.config.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="11" column="29" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-6.7647057">
+              <caret line="23" column="35" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="35" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="menu.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/src/templates/base/menu.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-1.875">
+              <caret line="3" column="11" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="services.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/pages/home/services.js">
+        <entry file="file://$PROJECT_DIR$/www/src/services/services.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="template.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/src/pages/account/template.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-3.125">
+              <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="controller.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/src/pages/chat/controller.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="6" column="7" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="routes.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/src/pages/chat/routes.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="8" column="30" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="services.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/src/pages/chat/services.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="0" column="32" selection-start-line="0" selection-start-column="32" selection-end-line="0" selection-end-column="32" />
@@ -301,11 +245,51 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="routes.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/pages/home/routes.js">
+      <file leaf-file-name="template.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/src/pages/chat/template.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-2.5">
+              <caret line="4" column="11" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.modules.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/js/app.modules.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+              <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tabs.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/src/templates/base/tabs.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-8.125">
+              <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="controller.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/src/pages/settings/controller.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="6" column="7" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="routes.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/src/pages/settings/routes.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -324,18 +308,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/www/templates/account.html" />
-        <option value="$PROJECT_DIR$/www/templates/messages.html" />
-        <option value="$PROJECT_DIR$/www/templates/settings.html" />
-        <option value="$PROJECT_DIR$/www/templates/chats.html" />
-        <option value="$PROJECT_DIR$/www/templates/login.html" />
-        <option value="$PROJECT_DIR$/www/templates/home.html" />
-        <option value="$PROJECT_DIR$/www/templates/tabsController.html" />
-        <option value="$PROJECT_DIR$/www/templates/base/tabsBaseTemplate.html" />
-        <option value="$PROJECT_DIR$/www/templates/signup.html" />
-        <option value="$PROJECT_DIR$/www/templates/join.html" />
-        <option value="$PROJECT_DIR$/www/templates/base/menuBase.html" />
-        <option value="$PROJECT_DIR$/www/js/controllers/authenticate.js" />
         <option value="$PROJECT_DIR$/ionic.project" />
         <option value="$PROJECT_DIR$/www/js/controllers.js" />
         <option value="$PROJECT_DIR$/www/js/directives.js" />
@@ -344,9 +316,6 @@
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/www/js/login/routes.js" />
         <option value="$PROJECT_DIR$/www/routes.js" />
-        <option value="$PROJECT_DIR$/www/app.js" />
-        <option value="$PROJECT_DIR$/webpack.config.js" />
-        <option value="$PROJECT_DIR$/www/js/app.js" />
         <option value="$PROJECT_DIR$/www/pages/settings/template.html" />
         <option value="$PROJECT_DIR$/www/pages/home/template.html" />
         <option value="$PROJECT_DIR$/www/pages/home/controller.js" />
@@ -370,11 +339,26 @@
         <option value="$PROJECT_DIR$/www/pages/settings/routes.js" />
         <option value="$PROJECT_DIR$/www/pages/chat/routes.js" />
         <option value="$PROJECT_DIR$/www/templates/base/tabs.html" />
-        <option value="$PROJECT_DIR$/www/index.html" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/config.xml" />
         <option value="$PROJECT_DIR$/www/pages/login/routes.js" />
         <option value="$PROJECT_DIR$/www/js/routes.js" />
+        <option value="$PROJECT_DIR$/www/src/routes.js" />
+        <option value="$PROJECT_DIR$/www/src/pages/account/routes.js" />
+        <option value="$PROJECT_DIR$/www/src/pages/chat/routes.js" />
+        <option value="$PROJECT_DIR$/www/src/pages/join/routes.js" />
+        <option value="$PROJECT_DIR$/www/src/pages/settings/routes.js" />
+        <option value="$PROJECT_DIR$/www/src/app.js" />
+        <option value="$PROJECT_DIR$/www/index.html" />
+        <option value="$PROJECT_DIR$/gulpfile.js" />
+        <option value="$PROJECT_DIR$/www/app.js" />
+        <option value="$PROJECT_DIR$/webpack.config.js" />
+        <option value="$PROJECT_DIR$/www/src/pages/settings/template.html" />
+        <option value="$PROJECT_DIR$/www/src/pages/home/routes.js" />
+        <option value="$PROJECT_DIR$/www/src/pages/login/routes.js" />
+        <option value="$PROJECT_DIR$/www/src/routes/routes.js" />
+        <option value="$PROJECT_DIR$/www/src/pages/account/template.html" />
+        <option value="$PROJECT_DIR$/www/js/app.js" />
       </list>
     </option>
   </component>
@@ -532,29 +516,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="pages" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="www" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pages" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="login" />
+              <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -605,9 +567,9 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/www/js" />
       <recent name="$PROJECT_DIR$/www" />
-      <recent name="$PROJECT_DIR$/www/directives" />
-      <recent name="$PROJECT_DIR$/www/pages" />
-      <recent name="$PROJECT_DIR$/www/js/login" />
+      <recent name="$PROJECT_DIR$/www/src/services" />
+      <recent name="$PROJECT_DIR$/www/src/routes" />
+      <recent name="$PROJECT_DIR$/www/src/js" />
     </key>
   </component>
   <component name="RunManager">
@@ -671,18 +633,18 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="797" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32907802" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32907802" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32907802" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26241136" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.6836879" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22818312" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32953736" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32907802" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -718,22 +680,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.bowerrc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.editorconfig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/www/lib/ionic/js/ionic.bundle.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -13408,22 +13354,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/directives/directives.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.13293944">
-          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ionic.project">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="3" column="1" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/hooks/after_prepare/010_add_platform_class.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -13432,60 +13362,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/js/services.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/img/391blr3TqDUKYAZgFsRg_lekan-ikotun.jpg">
+    <entry file="file://$PROJECT_DIR$/www/src/img/391blr3TqDUKYAZgFsRg_lekan-ikotun.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webpack.config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="17" column="34" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-12.625">
-          <caret line="27" column="23" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/js/app.modules.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/pages/home/template.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.5">
-          <caret line="4" column="11" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/pages/settings/template.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.25">
-          <caret line="2" column="11" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/pages/join/controller.js">
+    <entry file="file://$PROJECT_DIR$/www/src/pages/join/controller.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="6" column="7" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
@@ -13493,15 +13375,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/pages/settings/controller.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="6" column="7" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/pages/settings/services.js">
+    <entry file="file://$PROJECT_DIR$/www/src/pages/settings/services.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="36" selection-start-line="0" selection-start-column="36" selection-end-line="0" selection-end-column="36" />
@@ -13509,7 +13383,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/pages/join/services.js">
+    <entry file="file://$PROJECT_DIR$/www/src/pages/join/services.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="32" selection-start-line="0" selection-start-column="32" selection-end-line="0" selection-end-column="32" />
@@ -13517,7 +13391,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/pages/home/services.js">
+    <entry file="file://$PROJECT_DIR$/www/src/pages/home/services.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="32" selection-start-line="0" selection-start-column="32" selection-end-line="0" selection-end-column="32" />
@@ -13525,7 +13399,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/pages/login/template.html">
+    <entry file="file://$PROJECT_DIR$/www/src/pages/login/template.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-5.0">
           <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
@@ -13541,7 +13415,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/pages/join/template.html">
+    <entry file="file://$PROJECT_DIR$/www/src/pages/join/template.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-13.125">
           <caret line="21" column="11" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
@@ -13549,193 +13423,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/pages/account/services.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="35" selection-start-line="0" selection-start-column="35" selection-end-line="0" selection-end-column="35" />
-          <folding>
-            <marker date="1469370469000" expanded="true" signature="67:87" placeholder="[...]" />
-            <marker date="1469370469000" expanded="true" signature="78:86" placeholder="{...}" />
-            <marker date="1469370469000" expanded="true" signature="119:139" placeholder="[...]" />
-            <marker date="1469370469000" expanded="true" signature="130:138" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/pages/account/template.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.75">
-          <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
-          <folding>
-            <marker date="1469367508000" expanded="true" signature="41:273" placeholder="..." />
-            <marker date="1469367508000" expanded="true" signature="93:261" placeholder="..." />
-            <marker date="1469367508000" expanded="false" signature="115:133" placeholder="..." />
-            <marker date="1469367508000" expanded="true" signature="134:242" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/pages/chat/services.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="32" selection-start-line="0" selection-start-column="32" selection-end-line="0" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/pages/chat/template.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.5">
-          <caret line="4" column="11" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/js/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding>
-            <marker date="1469364920000" expanded="true" signature="0:312" placeholder="//..." />
-            <marker date="1469364920000" expanded="true" signature="484:699" placeholder="[...]" />
-            <marker date="1469364920000" expanded="true" signature="732:1273" placeholder="{...}" />
-            <marker date="1469364920000" expanded="true" signature="770:1269" placeholder="{...}" />
-            <marker date="1469364920000" expanded="true" signature="780:902" placeholder="//..." />
-            <marker date="1469364920000" expanded="true" signature="992:1130" placeholder="{...}" />
-            <marker date="1469364920000" expanded="true" signature="1161:1263" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/pages/chat/controller.js">
+    <entry file="file://$PROJECT_DIR$/www/src/pages/home/controller.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="6" column="7" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
-          <folding>
-            <marker date="1469366260000" expanded="true" signature="101:109" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/pages/home/controller.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="6" column="7" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/pages/account/controller.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="2" column="34" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/pages/account/routes.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/pages/home/routes.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/pages/join/routes.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/pages/settings/routes.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/pages/chat/routes.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding>
-            <marker date="1469403467000" expanded="true" signature="33:194" placeholder="{&quot;name&quot;: 'app.chat'...}" />
-            <marker date="1469403467000" expanded="true" signature="105:192" placeholder="{...}" />
-            <marker date="1469403467000" expanded="true" signature="123:186" placeholder="{&quot;templateUrl&quot;: 'pages/chat/template.html'...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/templates/base/menu.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.875">
-          <caret line="3" column="11" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
-          <folding>
-            <marker date="1468666699000" expanded="true" signature="43:148" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/templates/base/tabs.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.125">
-          <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
-          <folding>
-            <marker date="1469403519000" expanded="true" signature="44:611" placeholder="..." />
-            <marker date="1469403519000" expanded="true" signature="110:175" placeholder="..." />
-            <marker date="1469403519000" expanded="true" signature="253:321" placeholder="..." />
-            <marker date="1469403519000" expanded="true" signature="391:456" placeholder="..." />
-            <marker date="1469403519000" expanded="true" signature="530:599" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.375">
-          <caret line="49" column="53" selection-start-line="49" selection-start-column="53" selection-end-line="49" selection-end-column="53" />
-          <folding>
-            <marker date="1469403542000" expanded="true" signature="21:2641" placeholder="..." />
-            <marker date="1469403542000" expanded="true" signature="32:993" placeholder="..." />
-            <marker date="1469403542000" expanded="true" signature="650:774" placeholder="..." />
-            <marker date="1469403542000" expanded="true" signature="708:758" placeholder="{...}" />
-            <marker date="1469403542000" expanded="true" signature="845:978" placeholder="..." />
-            <marker date="1469403542000" expanded="true" signature="1058:2633" placeholder="..." />
-            <marker date="1469403542000" expanded="true" signature="1088:2621" placeholder="..." />
-            <marker date="1469403542000" expanded="true" signature="1129:1593" placeholder="..." />
-            <marker date="1469403542000" expanded="true" signature="1183:1500" placeholder="..." />
-            <marker date="1469403542000" expanded="true" signature="1305:1465" placeholder="..." />
-            <marker date="1469403542000" expanded="true" signature="1638:2591" placeholder="..." />
-            <marker date="1469403542000" expanded="true" signature="1694:1786" placeholder="..." />
-            <marker date="1469403542000" expanded="true" signature="1870:2558" placeholder="..." />
-            <marker date="1469403542000" expanded="true" signature="1912:2523" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.24390244">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gulpfile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -13748,6 +13439,64 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/www/src/pages/login/services.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="33" selection-start-line="0" selection-start-column="33" selection-end-line="0" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/src/pages/login/controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="6" column="7" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/src/pages/join/routes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="30" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
+          <folding>
+            <marker date="1469650752000" expanded="true" signature="125:192" placeholder="{&quot;templateUrl&quot;: 'src/pages/join/template.html'...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/src/directives/directives.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-16.875">
+          <caret line="27" column="23" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ionic.project">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="3" column="1" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulpfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="24" column="27" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/config.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.625">
@@ -13756,15 +13505,63 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/pages/login/services.js">
+    <entry file="file://$PROJECT_DIR$/bower.json">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="33" selection-start-line="0" selection-start-column="33" selection-end-line="0" selection-end-column="33" />
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/pages/login/controller.js">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.editorconfig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.bowerrc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/src/pages/account/controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="2" column="34" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/src/pages/account/routes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="30" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/src/pages/account/services.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="35" selection-start-line="0" selection-start-column="35" selection-end-line="0" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/src/pages/chat/controller.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="6" column="7" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
@@ -13772,19 +13569,192 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/js/routes.js">
+    <entry file="file://$PROJECT_DIR$/www/src/pages/chat/routes.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="28" column="14" selection-start-line="28" selection-start-column="14" selection-end-line="28" selection-end-column="14" />
+          <caret line="8" column="30" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/pages/login/routes.js">
+    <entry file="file://$PROJECT_DIR$/www/src/pages/chat/services.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.31019202">
-          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="32" selection-start-line="0" selection-start-column="32" selection-end-line="0" selection-end-column="32" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/src/templates/base/tabs.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.125">
+          <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/src/pages/settings/controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="6" column="7" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpack.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="11" column="29" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/src/templates/base/menu.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.875">
+          <caret line="3" column="11" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.7647057">
+          <caret line="23" column="35" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/src/services/services.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/src/pages/home/template.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.5">
+          <caret line="4" column="11" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/js/app.modules.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/dist/js/app.bundle.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <marker date="1469676343000" expanded="true" signature="50:58" placeholder="/*...*/" />
+            <marker date="1469676343000" expanded="true" signature="80:88" placeholder="/*...*/" />
+            <marker date="1469676343000" expanded="true" signature="201:858" placeholder="{...}" />
+            <marker date="1469676343000" expanded="true" signature="204:212" placeholder="/*...*/" />
+            <marker date="1469676343000" expanded="true" signature="246:254" placeholder="/*...*/" />
+            <marker date="1469676343000" expanded="true" signature="288:296" placeholder="/*...*/" />
+            <marker date="1469676343000" expanded="true" signature="344:352" placeholder="/*...*/" />
+            <marker date="1469676343000" expanded="true" signature="459:550" placeholder="{&quot;loaded&quot;: false...}" />
+            <marker date="1469676343000" expanded="true" signature="461:469" placeholder="/*...*/" />
+            <marker date="1469676343000" expanded="true" signature="486:494" placeholder="/*...*/" />
+            <marker date="1469676343000" expanded="true" signature="512:520" placeholder="/*...*/" />
+            <marker date="1469676343000" expanded="true" signature="553:561" placeholder="/*...*/" />
+            <marker date="1469676343000" expanded="true" signature="595:603" placeholder="/*...*/" />
+            <marker date="1469676343000" expanded="true" signature="692:700" placeholder="/*...*/" />
+            <marker date="1469676343000" expanded="true" signature="732:740" placeholder="/*...*/" />
+            <marker date="1469676343000" expanded="true" signature="766:774" placeholder="/*...*/" />
+            <marker date="1469676343000" expanded="true" signature="813:821" placeholder="/*...*/" />
+            <marker date="1469676343000" expanded="true" signature="861:869" placeholder="/*...*/" />
+            <marker date="1469676343000" expanded="true" signature="922:930" placeholder="/*...*/" />
+            <marker date="1469676343000" expanded="true" signature="1003:1011" placeholder="/*...*/" />
+            <marker date="1469676343000" expanded="true" signature="1093:1101" placeholder="/*...*/" />
+            <marker date="1469676343000" expanded="true" signature="1182:1190" placeholder="/*...*/" />
+            <marker date="1469676343000" expanded="true" signature="1235:1309" placeholder="/*...*/" />
+            <marker date="1469676343000" expanded="true" signature="1320:7176" placeholder="[...]" />
+            <marker date="1469676343000" expanded="true" signature="1322:1329" placeholder="/*...*/" />
+            <marker date="1469676343000" expanded="true" signature="1330:1335" placeholder="/*...*/" />
+            <marker date="1469676343000" expanded="true" signature="1383:1748" placeholder="{...}" />
+            <marker date="1469676343000" expanded="true" signature="1387:1704" placeholder="//..." />
+            <marker date="1469676343000" expanded="true" signature="7156:7165" placeholder="{...}" />
+            <marker date="1469676343000" expanded="true" signature="7158:7163" placeholder="/*...*/" />
+            <marker date="1469676343000" expanded="true" signature="7166:7174" placeholder="/*...*/" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/src/pages/chat/template.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.5">
+          <caret line="4" column="11" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/src/pages/settings/template.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.25">
+          <caret line="2" column="37" selection-start-line="2" selection-start-column="37" selection-end-line="2" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/src/pages/home/routes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding>
+            <marker date="1469675635000" expanded="true" signature="123:190" placeholder="{&quot;templateUrl&quot;: 'src/pages/home/template.html'...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/src/pages/settings/routes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/src/pages/login/routes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/src/routes/routes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="20" column="59" selection-start-line="20" selection-start-column="59" selection-end-line="20" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/src/pages/account/template.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.125">
+          <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7692308">
+          <caret line="10" column="35" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

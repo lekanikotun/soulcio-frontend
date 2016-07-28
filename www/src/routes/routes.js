@@ -2,6 +2,11 @@
 
 //controllers
 require('../pages/login/controller');
+require('../pages/join/controller');
+require('../pages/home/controller');
+require('../pages/chat/controller');
+require('../pages/account/controller');
+require('../pages/settings/controller');
 
 //Routes
 var loginRoute = require('../pages/login/routes');
@@ -19,12 +24,12 @@ angular.module('soulcioApp.routes')
 
             .state('app', {
                 url: '',
-                templateUrl: 'templates/base/tabs.html',
+                templateUrl: 'src/templates/base/tabs.html',
                 abstract: true
             })
             .state('menu', {
                 url: '',
-                templateUrl: 'templates/base/menu.html',
+                templateUrl: 'src/templates/base/menu.html',
                 abstract: true
             })
             .state(homeRoute)
@@ -35,6 +40,5 @@ angular.module('soulcioApp.routes')
             .state(joinRoute)
 
         $urlRouterProvider.otherwise('/home')
-
 
     });

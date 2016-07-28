@@ -55,8 +55,7 @@
 
 	__webpack_require__(1);
 	__webpack_require__(2);
-	__webpack_require__(10);
-
+	//require.context("../src", true, /^\.\/.*\.js$/);
 
 	window.soulcioApp = angular.module('soulcioApp', [
 	    'ionic',
@@ -115,14 +114,19 @@
 
 	//controllers
 	__webpack_require__(3);
+	__webpack_require__(4);
+	__webpack_require__(5);
+	__webpack_require__(6);
+	__webpack_require__(7);
+	__webpack_require__(8);
 
 	//Routes
-	var loginRoute = __webpack_require__(4);
-	var joinRoute = __webpack_require__(5);
-	var homeRoute = __webpack_require__(6);
-	var chatRoute = __webpack_require__(7);
-	var accountRoute = __webpack_require__(8);
-	var settingsRoute = __webpack_require__(9);
+	var loginRoute = __webpack_require__(9);
+	var joinRoute = __webpack_require__(10);
+	var homeRoute = __webpack_require__(11);
+	var chatRoute = __webpack_require__(12);
+	var accountRoute = __webpack_require__(13);
+	var settingsRoute = __webpack_require__(14);
 
 	angular.module('soulcioApp.routes')
 
@@ -132,12 +136,12 @@
 
 	            .state('app', {
 	                url: '',
-	                templateUrl: 'templates/base/tabs.html',
+	                templateUrl: 'src/templates/base/tabs.html',
 	                abstract: true
 	            })
 	            .state('menu', {
 	                url: '',
-	                templateUrl: 'templates/base/menu.html',
+	                templateUrl: 'src/templates/base/menu.html',
 	                abstract: true
 	            })
 	            .state(homeRoute)
@@ -148,7 +152,6 @@
 	            .state(joinRoute)
 
 	        $urlRouterProvider.otherwise('/home')
-
 
 	    });
 
@@ -170,202 +173,14 @@
 
 	'use strict';
 
-	module.exports =  {
-	    name: 'menu.login',
-	    url: '/login',
-	    parent: 'menu',
-	    views: {
-	        'login': {
-	            templateUrl: 'pages/login/template.html',
-	            controller: 'LoginController',
-	            controllerAs: 'vm'
-	        }
-	    }
-	}
+	angular.module('soulcioApp.join')
 
+	    .controller('JoinController', function($scope) {
+
+	    });
 
 /***/ },
 /* 5 */
-/***/ function(module, exports) {
-
-	'use strict';
-
-	module.exports =  {
-	    name: 'menu.join',
-	    url: '/join',
-	    parent: 'menu',
-	    views: {
-	        'join': {
-	            templateUrl: 'pages/join/template.html'
-	        }
-	    }
-	}
-
-
-/***/ },
-/* 6 */
-/***/ function(module, exports) {
-
-	'use strict';
-
-	module.exports =  {
-	    name: 'app.home',
-	    url: '/home',
-	    parent: 'app',
-	    views: {
-	        'home': {
-	            templateUrl: 'pages/home/template.html'
-	        }
-	    }
-	}
-
-
-/***/ },
-/* 7 */
-/***/ function(module, exports) {
-
-	'use strict';
-
-	module.exports =  {
-	    name: 'app.chat',
-	    url: '/chat',
-	    parent: 'app',
-	    views: {
-	        'chat': {
-	            templateUrl: 'pages/chat/template.html'
-	        }
-	    }
-	}
-
-
-/***/ },
-/* 8 */
-/***/ function(module, exports) {
-
-	'use strict';
-
-	module.exports =  {
-	    name: 'app.account',
-	    url: '/account',
-	    parent: 'app',
-	    views: {
-	        'account': {
-	            templateUrl: 'pages/account/template.html'
-	        }
-	    }
-	}
-
-
-/***/ },
-/* 9 */
-/***/ function(module, exports) {
-
-	'use strict';
-
-	module.exports =  {
-	    name: 'app.settings',
-	    url: '/settings',
-	    parent: 'app',
-	    views: {
-	        'settings': {
-	            templateUrl: 'pages/settings/template.html'
-	        }
-	    }
-	}
-
-
-/***/ },
-/* 10 */
-/***/ function(module, exports, __webpack_require__) {
-
-	var map = {
-		"./account/controller.js": 11,
-		"./account/routes.js": 8,
-		"./account/services.js": 12,
-		"./chat/controller.js": 13,
-		"./chat/routes.js": 7,
-		"./chat/services.js": 14,
-		"./home/controller.js": 15,
-		"./home/routes.js": 6,
-		"./home/services.js": 16,
-		"./join/controller.js": 17,
-		"./join/routes.js": 5,
-		"./join/services.js": 18,
-		"./login/controller.js": 3,
-		"./login/routes.js": 4,
-		"./login/services.js": 19,
-		"./settings/controller.js": 20,
-		"./settings/routes.js": 9,
-		"./settings/services.js": 21
-	};
-	function webpackContext(req) {
-		return __webpack_require__(webpackContextResolve(req));
-	};
-	function webpackContextResolve(req) {
-		return map[req] || (function() { throw new Error("Cannot find module '" + req + "'.") }());
-	};
-	webpackContext.keys = function webpackContextKeys() {
-		return Object.keys(map);
-	};
-	webpackContext.resolve = webpackContextResolve;
-	module.exports = webpackContext;
-	webpackContext.id = 10;
-
-
-/***/ },
-/* 11 */
-/***/ function(module, exports) {
-
-	'use strict';
-
-	angular.module('soulcioApp.account')
-
-	    .controller('loginController', function($scope) {
-
-	    });
-
-/***/ },
-/* 12 */
-/***/ function(module, exports) {
-
-	angular.module('soulcioApp.account')
-
-	    .factory('BlankFactory', [function(){
-
-	    }])
-
-	    .service('BlankService', [function(){
-
-	    }]);
-
-/***/ },
-/* 13 */
-/***/ function(module, exports) {
-
-	'use strict';
-
-	angular.module('soulcioApp.chat')
-
-	    .controller('ChatController', function($scope) {
-
-	    });
-
-/***/ },
-/* 14 */
-/***/ function(module, exports) {
-
-	angular.module('soulcioApp.chat')
-
-	    .factory('BlankFactory', [function(){
-
-	    }])
-
-	    .service('BlankService', [function(){
-
-	    }]);
-
-/***/ },
-/* 15 */
 /***/ function(module, exports) {
 
 	'use strict';
@@ -377,61 +192,31 @@
 	    });
 
 /***/ },
-/* 16 */
-/***/ function(module, exports) {
-
-	angular.module('soulcioApp.home')
-
-	    .factory('BlankFactory', [function(){
-
-	    }])
-
-	    .service('BlankService', [function(){
-
-	    }]);
-
-/***/ },
-/* 17 */
+/* 6 */
 /***/ function(module, exports) {
 
 	'use strict';
 
-	angular.module('soulcioApp.join')
+	angular.module('soulcioApp.chat')
 
-	    .controller('JoinController', function($scope) {
+	    .controller('ChatController', function($scope) {
 
 	    });
 
 /***/ },
-/* 18 */
+/* 7 */
 /***/ function(module, exports) {
 
-	angular.module('soulcioApp.join')
+	'use strict';
 
-	    .factory('BlankFactory', [function(){
+	angular.module('soulcioApp.account')
 
-	    }])
+	    .controller('loginController', function($scope) {
 
-	    .service('BlankService', [function(){
-
-	    }]);
+	    });
 
 /***/ },
-/* 19 */
-/***/ function(module, exports) {
-
-	angular.module('soulcioApp.login')
-
-	    .factory('BlankFactory', [function(){
-
-	    }])
-
-	    .service('BlankService', [function(){
-
-	    }]);
-
-/***/ },
-/* 20 */
+/* 8 */
 /***/ function(module, exports) {
 
 	'use strict';
@@ -443,18 +228,114 @@
 	    });
 
 /***/ },
-/* 21 */
+/* 9 */
 /***/ function(module, exports) {
 
-	angular.module('soulcioApp.settings')
+	'use strict';
 
-	    .factory('BlankFactory', [function(){
+	module.exports =  {
+	    name: 'menu.login',
+	    url: '/login',
+	    parent: 'menu',
+	    views: {
+	        'login': {
+	            templateUrl: 'src/pages/login/template.html',
+	            controller: 'LoginController',
+	            controllerAs: 'vm'
+	        }
+	    }
+	}
 
-	    }])
 
-	    .service('BlankService', [function(){
+/***/ },
+/* 10 */
+/***/ function(module, exports) {
 
-	    }]);
+	'use strict';
+
+	module.exports =  {
+	    name: 'menu.join',
+	    url: '/join',
+	    parent: 'menu',
+	    views: {
+	        'join': {
+	            templateUrl: 'src/pages/join/template.html'
+	        }
+	    }
+	}
+
+
+/***/ },
+/* 11 */
+/***/ function(module, exports) {
+
+	'use strict';
+
+	module.exports =  {
+	    name: 'app.home',
+	    url: '/home',
+	    parent: 'app',
+	    views: {
+	        'home': {
+	            templateUrl: 'src/pages/home/template.html'
+	        }
+	    }
+	}
+
+
+/***/ },
+/* 12 */
+/***/ function(module, exports) {
+
+	'use strict';
+
+	module.exports =  {
+	    name: 'app.chat',
+	    url: '/chat',
+	    parent: 'app',
+	    views: {
+	        'chat': {
+	            templateUrl: 'src/pages/chat/template.html'
+	        }
+	    }
+	}
+
+
+/***/ },
+/* 13 */
+/***/ function(module, exports) {
+
+	'use strict';
+
+	module.exports =  {
+	    name: 'app.account',
+	    url: '/account',
+	    parent: 'app',
+	    views: {
+	        'account': {
+	            templateUrl: 'src/pages/account/template.html'
+	        }
+	    }
+	}
+
+
+/***/ },
+/* 14 */
+/***/ function(module, exports) {
+
+	'use strict';
+
+	module.exports =  {
+	    name: 'app.settings',
+	    url: '/settings',
+	    parent: 'app',
+	    views: {
+	        'settings': {
+	            templateUrl: 'src/pages/settings/template.html'
+	        }
+	    }
+	}
+
 
 /***/ }
 /******/ ]);
