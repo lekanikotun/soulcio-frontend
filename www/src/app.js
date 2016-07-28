@@ -8,7 +8,7 @@
 'use strict';
 
 require('./app.modules.js');
-require('../src/routes/routes.js');
+require('./routes/routes.js');
 //require.context("../src", true, /^\.\/.*\.js$/);
 
 window.soulcioApp = angular.module('soulcioApp', [
