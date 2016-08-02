@@ -1,5 +1,9 @@
-<ion-view title="Soulcio" id="home">
+<ion-view title="My Account" id="home">
     <ion-content padding="true" class="has-header">
-        <h2>This is the home Page</h2>
+        <h2>{{vm.userData.displayname}}</h2>
+        <div class="profile-image" style="width:130px; height: 130px; background:url('{{vm.userData.image_profile}}') center center no-repeat; border-radius:50%"></div>
+        <p>Email: {{vm.userData.email}}</p>
+        <p>Profile: @{{vm.userData.username | lowercase}}</p>
+        <p>Share: {{vm.userData.content_url | lowercase}}</p>
     </ion-content>
 </ion-view>
